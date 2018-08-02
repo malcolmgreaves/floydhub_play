@@ -1,0 +1,10 @@
+name: floydhub_play
+channels:
+  - defaults
+  - conda-forge
+  - blaze
+  - bokeh
+dependencies:
+  - python=3.6.*
+  - pip:
+    - floyd-cli 
